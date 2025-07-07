@@ -1,0 +1,205 @@
+========================================================
+======== TEHL MODEL. GENERAL OUTPUT INFORMATION ========
+========================================================
+
+	TYPE OF CALCULATED EHL CONTACT:		POINT CONTACT
+
+********************************************************
+************ HERZIAN CONTACT PARAMETERS ****************
+********************************************************
+
+	SEMI-AXES OF CONTACT ELLIPSE:
+		A			=	7.18479e-05		m
+		B			=	6.94921e-05		m
+		RATIO		=	1.03390
+
+	NORMAL CONTACT FORCE:
+		FN			=	10.00			N
+
+	MAX CONTACT PRESSURE:
+		PH			=	9.56295e+08		Pa
+
+********************************************************
+************ COORDINATE SYSTEM DESCRIPTION: ************
+********************************************************
+
+	THE CS ORIGIN IS PLACED ON BODY 1 (BOTTOM)
+
+	X - AXIS: HORIZONTAL LINE
+	Z - AXIS: VERTICAL LINE
+	Y - AXIS: AWAY FROM US
+
+********************************************************
+******************* DOMAIN GEOMETRY ********************
+********************************************************
+
+	AREA BOUNDARIES:	
+		X = [-2 , 2] | [-1.43696e-04 , 1.43696e-04], m
+		Y = [-2 , 2] | [-1.38984e-04 , 1.38984e-04], m
+
+	SCALE FACTORS TO ENLARGE COMPUTATIONAL AREA:	
+		KX = 2.00
+		KY = 2.00
+
+	THE NUMBER OF GRID POINTS IN CONTACT AREA:
+		NX = 33
+		NY = 33
+
+	THE DISTANCE BETWEEN GRID POINTS:
+		DX = 0.12500 | 8.98099e-06 m
+		DY = 0.12500 | 8.98099e-06 m
+
+	SUBAREA WITH REFINED Z-RESOLUTION:	
+		X = [-0.25 , 0.25] | [-1.79620e-05 , 1.79620e-05], m
+		Y = [-0.25 , 0.25] | [-1.79620e-05 , 1.79620e-05], m
+
+	Z-RESOLUTION IN DOMAIN:	
+		NZ_NORMAL	=	5
+		NZ_REFINED	=	5
+
+********************************************************
+******************* BODY 1 (BOTTOM) ********************
+********************************************************
+
+	RADII OF CURVATURE:
+		RX						=	0.010		m
+		RY						=	0.010		m
+
+	ELASTIC PROPERTIES:
+		Young modulus			=	2.00e+11	Pa
+		Poisson ratio			=	0.300
+
+	THERMAL PROPERTIES:
+		Thermal conductivity	=	45.00		W/(m K) 
+		Heat capacity			=	480.00		J/(kg K)
+
+********************************************************
+********************* BODY 2 (TOP) *********************
+********************************************************
+
+	RADII OF CURVATURE:
+		RX						=	0.010		m
+		RY						=	0.010		m
+
+	ELASTIC PROPERTIES:
+		Young modulus			=	2.00e+11	Pa
+		Poisson ratio			=	0.300
+
+	THERMAL PROPERTIES:
+		Thermal conductivity	=	45.00		W/(m K) 
+		Heat capacity			=	480.00		J/(kg K)
+
+********************************************************
+***************** REDUCED GEOMETRY *********************
+********************************************************
+
+	RADII OF CURVATURE:
+		RX_REDU					=	0.005		m
+		RY_REDU					=	0.005		m
+
+	YOUNG MODULUS:
+		YM_REDU					=	2.20e+11	Pa
+
+********************************************************
+******************** BODIES KINEMATIC ******************
+********************************************************
+
+	BODY 1 VELOCITY:
+		U (X-COMP)					=	2.12		m/s
+		V (Y-COMP)					=	0.00		m/s
+
+	BODY 2 VELOCITY:
+		U (X-COMP)					=	2.12		m/s
+		V (Y-COMP)					=	0.00		m/s
+
+	SLIDE-TO-ROLL RATIO:
+		SRR_X						=	0.00
+		SRR_Y						=	0.00
+
+********************************************************
+***************** LUBRICANT PROPERTIES *****************
+********************************************************
+
+	DENSITY (RHO)
+		MODEL NAME:				TAIT EQUATION
+		MODEL PARAMETERS:
+				RHO_R		=	829.00
+				T_R			=	2.73150e+02
+				BETA_K		=	5.56700e-03
+				aV			=	8.25000e-04
+				K_0			=	1.03410e+01
+				K_00		=	7.33400e+09
+
+		REFERENCE VALUE:
+				RHO_R		=	829.00	kg/(m^3) 
+
+
+	LOW-SHEAR VISCOSITY (MU)
+		MODEL NAME:				ROELAND EQUATION
+		MODEL PARAMETERS:
+				MU_R		=	8.47000e-02
+				MU_P		=	6.31000e-05
+				P_P			=	-1.96000e+08
+				TR			=	2.73000e+02
+				TINF		=	1.38000e+02
+				Z			=	7.90000e-01
+				S			=	1.09000e+00
+
+		REFERENCE VALUE:
+				MU_R		=	8.47000e-02	Pa s 
+
+
+	GENERALIZED VISCOSITY (ETA)
+		MODEL NAME:				NEWTON BEHAVIOR
+		MODEL PARAMETERS:
+
+		REFERENCE VALUE:
+				ETA_R		=	8.47000e-02	Pa s 
+
+
+	THERMAL CONDUCTIVITY (K)
+		MODEL NAME:				PRESSURE DEPENDED
+		MODEL PARAMETERS:
+				LAMBDA_0	=	1.37000e-01
+				C1			=	1.72000e+00
+				C2			=	5.40000e-01
+
+		REFERENCE VALUE:
+				K_R			=	1.20000e-01	W/(m K) 
+
+
+	HEAT CAPACITY (RHO*Cp)
+		MODEL NAME:				LINEAR EQUATION
+		MODEL PARAMETERS:
+				C0			=	1.17000e+06
+				m			=	3.90000e+05
+				TR			=	2.98000e+02
+
+		REFERENCE VALUE:
+				RHO*Cp_R	=	1.67000e+03	J/(K m^3) 
+
+********************************************************
+***************** DIMENSIONLESS GROUPS *****************
+********************************************************
+
+	HAMROCK & DOWSON:
+		W			=	1.82000e-06
+		G			=	2.19780e+03
+		U			=	1.63403e-10
+
+	MOES:
+		M			=	23.7
+		L			=	9.3
+
+	G-PARAMETERS:
+		G_H			=	4.30854e+07
+		G_V			=	2.46242e+11
+		G_E			=	1.31839e-35
+
+********************************************************
+******* FILM THICKNESSES BY EMPIRICAL FORMULAS  ********
+********************************************************
+
+	HAMROCK & DOWSON:
+		H_C			=	5.06259e-01(5.22674e-07,m)
+		H_M			=	2.89827e-01(2.99224e-07,m)
